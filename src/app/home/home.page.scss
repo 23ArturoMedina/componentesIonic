@@ -1,6 +1,7 @@
 ion-content {
-  --background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
+  --background: linear-gradient(180deg, #134e5e, #71b280);
 }
+
 
 /* CONTENEDOR QUE SIEMPRE CENTRA */
 .page-center {
@@ -19,17 +20,19 @@ ion-content {
   max-width: 340px;
   padding: 22px 20px;
   border-radius: 18px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+
 /* INPUTS */
 .input-item {
   width: 100%;
-  margin-top: 12px;
+  margin-top: 14px;
+  --highlight-color-focused: #2e8b8b;
 }
 
 /* BOTÓN */
